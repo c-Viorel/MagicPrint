@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2294D9F46BB13EDA97761C4890230363 /* Pods-MagicPrint_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FF397009B8FDE0EE12007C00C2CB3A /* Pods-MagicPrint_Example-dummy.m */; };
+		59AB91C5B044FBA7A41E68044C7F6803 /* MagicPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF172EE298FBACBB1DE627C32C3C65CF /* MagicPrint.swift */; };
+		ADDD6996D46AEF2B9E61F72486409EF8 /* MagicPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F39748480C8025C124651CC9B48200 /* MagicPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2389E823D64D212DB9B4A1364B4F962 /* Pods-MagicPrint_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB4EAD0BC56815AF4A4080213C2CCC5 /* Pods-MagicPrint_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF6D1ED9DAA5BBEC7B82A07D0AEF7853 /* Pods-MagicPrint_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE53171DABED3DAC3173C50D545238D /* Pods-MagicPrint_Tests-dummy.m */; };
+		DA3C835F5BF765F406037BA15DF93AC6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		E2604766033F045D6421FE4F486A731D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		E27FD9D01081CC091CEF53E8D1883E60 /* Pods-MagicPrint_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5891FC54B1C433041FB3E14AF8D4E905 /* Pods-MagicPrint_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5911C1DEC4C8D6EBA70EB6FAAAAF214 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		EF05851DD516E1687D6D19F7B1755E36 /* MagicPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4D93425DF09B7BE695B6A9C4179A94 /* MagicPrint-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E8E51AEE105A74969F2A92D4E9E35D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8D7B06DBF016C9E15E7B7725BEFF32;
+			remoteInfo = MagicPrint;
+		};
+		4C5E3EB2E20951224E32DB1D128DC8F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03498176719B04927CC44B2251062395;
+			remoteInfo = "Pods-MagicPrint_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FF397009B8FDE0EE12007C00C2CB3A /* Pods-MagicPrint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagicPrint_Example-dummy.m"; sourceTree = "<group>"; };
+		0D9A6FC3E7489319FD3F2A6F81AD5BF9 /* Pods-MagicPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		11CFBA11109030A6EF50E7C3F1920A0D /* Pods-MagicPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
+		17140FF6FFF019C624FA7C29200852DA /* MagicPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MagicPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4EF4B496186BCB40CF38ED8ED99458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2EE53171DABED3DAC3173C50D545238D /* Pods-MagicPrint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagicPrint_Tests-dummy.m"; sourceTree = "<group>"; };
+		301F6306E371774B5CB2FAEAF0831919 /* Pods-MagicPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		30D6793506BCB1544D974E4203C2C92E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		328E90F755CBD24E13D181BC9ECD54FF /* Pods-MagicPrint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagicPrint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34F62EF3CDEDD95432EBF42931C1C444 /* Pods-MagicPrint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagicPrint_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4A2E10F3C02DC5730B6F3DFED31BCBEE /* MagicPrint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MagicPrint-Info.plist"; sourceTree = "<group>"; };
+		5891FC54B1C433041FB3E14AF8D4E905 /* Pods-MagicPrint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagicPrint_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C4B9A5FFDCC11EF5EC42B002F11708A /* MagicPrint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagicPrint.xcconfig; sourceTree = "<group>"; };
+		68A31B712455D0ACBD02973F69E42D46 /* Pods-MagicPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagicPrint_Example.modulemap"; sourceTree = "<group>"; };
+		6F820B88B470648912A4C1D181C7DF55 /* Pods-MagicPrint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagicPrint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83F39748480C8025C124651CC9B48200 /* MagicPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicPrint-umbrella.h"; sourceTree = "<group>"; };
+		8A2A27FBC905FE990B8DB8D79A7132B8 /* Pods-MagicPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagicPrint_Tests.modulemap"; sourceTree = "<group>"; };
+		8CAB0A5DD3D2548A31F1748245647C9F /* MagicPrint.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MagicPrint.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		928623DA64C88AC5B6D051286A76F5AD /* Pods-MagicPrint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagicPrint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9701E13F41056A2579A231BD0C790017 /* Pods-MagicPrint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicPrint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AB4EAD0BC56815AF4A4080213C2CCC5 /* Pods-MagicPrint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagicPrint_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE0D3A5AD93456DAA724719A91404FD8 /* MagicPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicPrint-prefix.pch"; sourceTree = "<group>"; };
+		B3BB5ACDF704942688E4BCC8C42F44D1 /* Pods_MagicPrint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicPrint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FC56DA13266EE18B0C69AF0BC23A2A /* MagicPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MagicPrint.modulemap; sourceTree = "<group>"; };
+		BB4D93425DF09B7BE695B6A9C4179A94 /* MagicPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagicPrint-dummy.m"; sourceTree = "<group>"; };
+		BF172EE298FBACBB1DE627C32C3C65CF /* MagicPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagicPrint.swift; path = MagicPrint/Classes/MagicPrint.swift; sourceTree = "<group>"; };
+		C37D6DF875FF13856BD5844ECD78DACC /* Pods-MagicPrint_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagicPrint_Tests-Info.plist"; sourceTree = "<group>"; };
+		C3E437D95852637D67D56DFE3C3BDE61 /* Pods_MagicPrint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicPrint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9484E5C90EE51C9CEB01651E789280C /* Pods-MagicPrint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagicPrint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FA88E595098145A176DA904C63BA77E3 /* Pods-MagicPrint_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagicPrint_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489517D9C8AB65821DFFF96BBB7849B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2604766033F045D6421FE4F486A731D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09F9822E7012D860BED97D5A4317015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3C835F5BF765F406037BA15DF93AC6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3EB178B43D0371D25A37382C3F3C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5911C1DEC4C8D6EBA70EB6FAAAAF214 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14234165188AD589B4878DECD080FB58 /* MagicPrint */ = {
+			isa = PBXGroup;
+			children = (
+				BF172EE298FBACBB1DE627C32C3C65CF /* MagicPrint.swift */,
+				744067CC501DE56F603A21EB15CEC4DF /* Pod */,
+				68089203CBA2ACEFBB4B7967EA96B02D /* Support Files */,
+			);
+			name = MagicPrint;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2CD25EDA17B007D87558922433559818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17140FF6FFF019C624FA7C29200852DA /* MagicPrint.framework */,
+				C3E437D95852637D67D56DFE3C3BDE61 /* Pods_MagicPrint_Example.framework */,
+				B3BB5ACDF704942688E4BCC8C42F44D1 /* Pods_MagicPrint_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B04DB58A152D387985E4E0A2054F53D /* Pods-MagicPrint_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A2A27FBC905FE990B8DB8D79A7132B8 /* Pods-MagicPrint_Tests.modulemap */,
+				328E90F755CBD24E13D181BC9ECD54FF /* Pods-MagicPrint_Tests-acknowledgements.markdown */,
+				6F820B88B470648912A4C1D181C7DF55 /* Pods-MagicPrint_Tests-acknowledgements.plist */,
+				2EE53171DABED3DAC3173C50D545238D /* Pods-MagicPrint_Tests-dummy.m */,
+				C37D6DF875FF13856BD5844ECD78DACC /* Pods-MagicPrint_Tests-Info.plist */,
+				9AB4EAD0BC56815AF4A4080213C2CCC5 /* Pods-MagicPrint_Tests-umbrella.h */,
+				9701E13F41056A2579A231BD0C790017 /* Pods-MagicPrint_Tests.debug.xcconfig */,
+				301F6306E371774B5CB2FAEAF0831919 /* Pods-MagicPrint_Tests.release.xcconfig */,
+			);
+			name = "Pods-MagicPrint_Tests";
+			path = "Target Support Files/Pods-MagicPrint_Tests";
+			sourceTree = "<group>";
+		};
+		5818C5B8322DF655642C1DA7BA9960B2 /* Pods-MagicPrint_Example */ = {
+			isa = PBXGroup;
+			children = (
+				68A31B712455D0ACBD02973F69E42D46 /* Pods-MagicPrint_Example.modulemap */,
+				D9484E5C90EE51C9CEB01651E789280C /* Pods-MagicPrint_Example-acknowledgements.markdown */,
+				928623DA64C88AC5B6D051286A76F5AD /* Pods-MagicPrint_Example-acknowledgements.plist */,
+				06FF397009B8FDE0EE12007C00C2CB3A /* Pods-MagicPrint_Example-dummy.m */,
+				34F62EF3CDEDD95432EBF42931C1C444 /* Pods-MagicPrint_Example-frameworks.sh */,
+				FA88E595098145A176DA904C63BA77E3 /* Pods-MagicPrint_Example-Info.plist */,
+				5891FC54B1C433041FB3E14AF8D4E905 /* Pods-MagicPrint_Example-umbrella.h */,
+				0D9A6FC3E7489319FD3F2A6F81AD5BF9 /* Pods-MagicPrint_Example.debug.xcconfig */,
+				11CFBA11109030A6EF50E7C3F1920A0D /* Pods-MagicPrint_Example.release.xcconfig */,
+			);
+			name = "Pods-MagicPrint_Example";
+			path = "Target Support Files/Pods-MagicPrint_Example";
+			sourceTree = "<group>";
+		};
+		68089203CBA2ACEFBB4B7967EA96B02D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC56DA13266EE18B0C69AF0BC23A2A /* MagicPrint.modulemap */,
+				5C4B9A5FFDCC11EF5EC42B002F11708A /* MagicPrint.xcconfig */,
+				BB4D93425DF09B7BE695B6A9C4179A94 /* MagicPrint-dummy.m */,
+				4A2E10F3C02DC5730B6F3DFED31BCBEE /* MagicPrint-Info.plist */,
+				AE0D3A5AD93456DAA724719A91404FD8 /* MagicPrint-prefix.pch */,
+				83F39748480C8025C124651CC9B48200 /* MagicPrint-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MagicPrint";
+			sourceTree = "<group>";
+		};
+		744067CC501DE56F603A21EB15CEC4DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				30D6793506BCB1544D974E4203C2C92E /* LICENSE */,
+				8CAB0A5DD3D2548A31F1748245647C9F /* MagicPrint.podspec */,
+				2E4EF4B496186BCB40CF38ED8ED99458 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B234ABE60227E278787C563F637C84EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5818C5B8322DF655642C1DA7BA9960B2 /* Pods-MagicPrint_Example */,
+				4B04DB58A152D387985E4E0A2054F53D /* Pods-MagicPrint_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F8AB1BF5A2CA18C729FA25FE920272A7 /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				2CD25EDA17B007D87558922433559818 /* Products */,
+				B234ABE60227E278787C563F637C84EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8AB1BF5A2CA18C729FA25FE920272A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14234165188AD589B4878DECD080FB58 /* MagicPrint */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CD4503CD2C520596253974B3DACD018 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27FD9D01081CC091CEF53E8D1883E60 /* Pods-MagicPrint_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137E670D350CCEB4DE24A0CD6C34A4EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDD6996D46AEF2B9E61F72486409EF8 /* MagicPrint-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F72EE37A7B994E52002EFFCFA16B19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2389E823D64D212DB9B4A1364B4F962 /* Pods-MagicPrint_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03498176719B04927CC44B2251062395 /* Pods-MagicPrint_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686C1C43E9C9A24893A9DD88C0428598 /* Build configuration list for PBXNativeTarget "Pods-MagicPrint_Example" */;
+			buildPhases = (
+				0CD4503CD2C520596253974B3DACD018 /* Headers */,
+				A7EBED3DF80D00C43DDC6DF2D79CD274 /* Sources */,
+				489517D9C8AB65821DFFF96BBB7849B6 /* Frameworks */,
+				62BE652DD9E52F24FA7858E1BCF2E752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE84756BA65F08C692C1CFF75C971099 /* PBXTargetDependency */,
+			);
+			name = "Pods-MagicPrint_Example";
+			productName = "Pods-MagicPrint_Example";
+			productReference = C3E437D95852637D67D56DFE3C3BDE61 /* Pods_MagicPrint_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B753A50E5EDC3667DC144E3F9E3FD878 /* Pods-MagicPrint_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F89095DBA88D731EB17E2E43BDDDFD /* Build configuration list for PBXNativeTarget "Pods-MagicPrint_Tests" */;
+			buildPhases = (
+				40F72EE37A7B994E52002EFFCFA16B19 /* Headers */,
+				30626D89512A0101F6DB5AC72669D277 /* Sources */,
+				BA3EB178B43D0371D25A37382C3F3C60 /* Frameworks */,
+				61F27D726BA48C2E181AF7761A5895A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F756D698E2B60830A5CEB8A33EE2A5EF /* PBXTargetDependency */,
+			);
+			name = "Pods-MagicPrint_Tests";
+			productName = "Pods-MagicPrint_Tests";
+			productReference = B3BB5ACDF704942688E4BCC8C42F44D1 /* Pods_MagicPrint_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE8D7B06DBF016C9E15E7B7725BEFF32 /* MagicPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E9571BE030292B309C1AB381A99EC8 /* Build configuration list for PBXNativeTarget "MagicPrint" */;
+			buildPhases = (
+				137E670D350CCEB4DE24A0CD6C34A4EE /* Headers */,
+				19E0C5BB50E2A1A0458BF0D606A62A35 /* Sources */,
+				B09F9822E7012D860BED97D5A4317015 /* Frameworks */,
+				F5794E17C06DA73173B1EB2B942F2507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicPrint;
+			productName = MagicPrint;
+			productReference = 17140FF6FFF019C624FA7C29200852DA /* MagicPrint.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2CD25EDA17B007D87558922433559818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8D7B06DBF016C9E15E7B7725BEFF32 /* MagicPrint */,
+				03498176719B04927CC44B2251062395 /* Pods-MagicPrint_Example */,
+				B753A50E5EDC3667DC144E3F9E3FD878 /* Pods-MagicPrint_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F27D726BA48C2E181AF7761A5895A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BE652DD9E52F24FA7858E1BCF2E752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5794E17C06DA73173B1EB2B942F2507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19E0C5BB50E2A1A0458BF0D606A62A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF05851DD516E1687D6D19F7B1755E36 /* MagicPrint-dummy.m in Sources */,
+				59AB91C5B044FBA7A41E68044C7F6803 /* MagicPrint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30626D89512A0101F6DB5AC72669D277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6D1ED9DAA5BBEC7B82A07D0AEF7853 /* Pods-MagicPrint_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EBED3DF80D00C43DDC6DF2D79CD274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2294D9F46BB13EDA97761C4890230363 /* Pods-MagicPrint_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE84756BA65F08C692C1CFF75C971099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MagicPrint;
+			target = DE8D7B06DBF016C9E15E7B7725BEFF32 /* MagicPrint */;
+			targetProxy = 3E8E51AEE105A74969F2A92D4E9E35D2 /* PBXContainerItemProxy */;
+		};
+		F756D698E2B60830A5CEB8A33EE2A5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MagicPrint_Example";
+			target = 03498176719B04927CC44B2251062395 /* Pods-MagicPrint_Example */;
+			targetProxy = 4C5E3EB2E20951224E32DB1D128DC8F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31DD169B1649FDF6C4458C879041A272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301F6306E371774B5CB2FAEAF0831919 /* Pods-MagicPrint_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MagicPrint_Tests/Pods-MagicPrint_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagicPrint_Tests/Pods-MagicPrint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36BE2F99389ABD78FDC1902CB4CF5DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4B9A5FFDCC11EF5EC42B002F11708A /* MagicPrint.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/MagicPrint/MagicPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MagicPrint/MagicPrint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/MagicPrint/MagicPrint.modulemap";
+				PRODUCT_MODULE_NAME = MagicPrint;
+				PRODUCT_NAME = MagicPrint;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		728DE71C1E28A5329922C0CA4E530203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4B9A5FFDCC11EF5EC42B002F11708A /* MagicPrint.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/MagicPrint/MagicPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MagicPrint/MagicPrint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/MagicPrint/MagicPrint.modulemap";
+				PRODUCT_MODULE_NAME = MagicPrint;
+				PRODUCT_NAME = MagicPrint;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82AEAC9D7D3AC708E7031FFDA876BEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CFBA11109030A6EF50E7C3F1920A0D /* Pods-MagicPrint_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MagicPrint_Example/Pods-MagicPrint_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagicPrint_Example/Pods-MagicPrint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		913188DB1719AE6DC942261D7D9A657F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9A6FC3E7489319FD3F2A6F81AD5BF9 /* Pods-MagicPrint_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MagicPrint_Example/Pods-MagicPrint_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagicPrint_Example/Pods-MagicPrint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9382317ED75CFC741F429FC224405042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4DEAC9B52796426D2A37E7074A1738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FDEB4D34B0D48D23A470640479D7E67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9701E13F41056A2579A231BD0C790017 /* Pods-MagicPrint_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MagicPrint_Tests/Pods-MagicPrint_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagicPrint_Tests/Pods-MagicPrint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382317ED75CFC741F429FC224405042 /* Debug */,
+				E4DEAC9B52796426D2A37E7074A1738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F89095DBA88D731EB17E2E43BDDDFD /* Build configuration list for PBXNativeTarget "Pods-MagicPrint_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDEB4D34B0D48D23A470640479D7E67F /* Debug */,
+				31DD169B1649FDF6C4458C879041A272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		686C1C43E9C9A24893A9DD88C0428598 /* Build configuration list for PBXNativeTarget "Pods-MagicPrint_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913188DB1719AE6DC942261D7D9A657F /* Debug */,
+				82AEAC9D7D3AC708E7031FFDA876BEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E9571BE030292B309C1AB381A99EC8 /* Build configuration list for PBXNativeTarget "MagicPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728DE71C1E28A5329922C0CA4E530203 /* Debug */,
+				36BE2F99389ABD78FDC1902CB4CF5DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

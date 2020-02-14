@@ -1,0 +1,16 @@
+PODS:
+  - MagicPrint (0.1.0)
+
+DEPENDENCIES:
+  - MagicPrint (from `../`)
+
+EXTERNAL SOURCES:
+  MagicPrint:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MagicPrint: 083c0c903ef5960b3e02aa6132cd9d3811d9b003
+
+PODFILE CHECKSUM: 74731151bbd17abff4888b7de2d07c5999f62e06
+
+COCOAPODS: 1.8.4

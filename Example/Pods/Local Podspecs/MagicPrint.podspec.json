@@ -1,0 +1,22 @@
+{
+  "name": "MagicPrint",
+  "version": "0.1.0",
+  "summary": "A short description of MagicPrint.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Viorel Porumbescu/MagicPrint",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Viorel Porumbescu": "viorel@minglebit.com"
+  },
+  "source": {
+    "git": "https://github.com/Viorel Porumbescu/MagicPrint.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "MagicPrint/Classes/**/*"
+}

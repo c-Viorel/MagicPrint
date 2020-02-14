@@ -1,0 +1,6 @@
+framework module MagicPrint {
+  umbrella header "MagicPrint-umbrella.h"
+
+  export *
+  module * { export * }
+}
