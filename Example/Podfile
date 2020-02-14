@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MagicPrint_Example' do
+  pod 'MagicPrint', :path => '../'
+
+  target 'MagicPrint_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
