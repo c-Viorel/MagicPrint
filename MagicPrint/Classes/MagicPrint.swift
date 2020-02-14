@@ -108,16 +108,6 @@ public func magicVerbose<T>(_ object: T, _ file: String = #file, _: String = #fu
     Swift.print("^-\(spaces)[\(filename).\(line)]: ◽️ \(object)\n", terminator: "")
 }
 
-/// This  block will be executed only in debug configuration
-/// Usefull for quick dedugging setups, like  logs, or prefilled textFields with test accounts, etc
-///
-/// - Parameter code: The piece of code that will run only in debugg builds/.
-public func inDebugBuilds(_ code: () -> Void) {
-    if _isDebugAssertConfiguration() {
-        code()
-    }
-}
-
 /*
  Align vertically all comments, to be able to identify more quickly
  the type of message (message)💠, (error)🔴, (warning)🔶,(info)🔷 or (verbose)◽️

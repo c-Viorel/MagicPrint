@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MagicPrint'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MagicPrint.'
+  s.summary          = 'Magic is the best alternative of print. It allows you to write in console more meaningfull logs'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,19 +19,27 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+Magic is the best alternative of print. It allows you to write in console more meaningfull logs.
+You have available thise methods to print messages into console:
+magicVerbose(<#T##object: T##T#>)
+magicMessage(<#T##object: T##T#>)
+magicInfo(<#T##object: T##T#>)
+magicWarning(<#T##object: T##T#>)
+magicWarning(<#T##object: T##T#>)
                        DESC
 
-  s.homepage         = 'https://github.com/Viorel Porumbescu/MagicPrint'
+  s.homepage         = 'https://github.com/c-Viorel/MagicPrint'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Viorel Porumbescu' => 'viorel@minglebit.com' }
-  s.source           = { :git => 'https://github.com/Viorel Porumbescu/MagicPrint.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/c-viorel/MagicPrint.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://resume.viorelporumbescu.tech'
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
 
   s.source_files = 'MagicPrint/Classes/**/*'
+  s.swift_version = '5.0'
 
   # s.resource_bundles = {
   #   'MagicPrint' => ['MagicPrint/Assets/*.png']

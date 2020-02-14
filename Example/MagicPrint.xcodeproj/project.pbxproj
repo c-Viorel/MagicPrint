@@ -32,10 +32,10 @@
 		3E2AE0DA3B41F9B3BBF8F002 /* Pods-MagicPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPrint_Example.release.xcconfig"; path = "Target Support Files/Pods-MagicPrint_Example/Pods-MagicPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
 		550ED70D2DB9952A3F57866C /* Pods-MagicPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPrint_Example.debug.xcconfig"; path = "Target Support Files/Pods-MagicPrint_Example/Pods-MagicPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6AA1A1E3ABD60C7411FB41CD /* Pods-MagicPrint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPrint_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MagicPrint_Tests/Pods-MagicPrint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D9F65808DBA7B1FBF65535F /* MagicPrint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MagicPrint.podspec; path = ../MagicPrint.podspec; sourceTree = "<group>"; };
-		CC6CA6C228C7B365F2AF7403 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D9F65808DBA7B1FBF65535F /* MagicPrint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MagicPrint.podspec; path = ../MagicPrint.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC6CA6C228C7B365F2AF7403 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE1511E2A6A7139CB0EB8B72 /* Pods-MagicPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPrint_Tests.release.xcconfig"; path = "Target Support Files/Pods-MagicPrint_Tests/Pods-MagicPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DBA2B39734D17A16E90F8931 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DBA2B39734D17A16E90F8931 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* MagicPrint_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicPrint_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED83F67D20348A760038D96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +76,6 @@
 				6AA1A1E3ABD60C7411FB41CD /* Pods-MagicPrint_Tests.debug.xcconfig */,
 				CE1511E2A6A7139CB0EB8B72 /* Pods-MagicPrint_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
