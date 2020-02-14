@@ -7,21 +7,27 @@
 //
 
 import Cocoa
+import MagicPrint
 
 class ViewController: NSViewController {
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-
-    // Do any additional setup after loading the view.
-  }
-
-  override var representedObject: Any? {
-    didSet {
-    // Update the view, if already loaded.
+    @IBAction func printVerbose(_ sender: Any) {
+        magicVerbose("This is a verbose message printed on the console.")
     }
-  }
 
+    @IBAction func printMessage(_ sender: Any) {
+        magicMessage("This is a simple message printed on the console.")
+    }
+
+    @IBAction func printInfo(_ sender: Any) {
+        magicInfo("This is a sample info message printed on the console.")
+    }
+    @IBAction func printWarning(_ sender: Any) {
+        magicWarning("This is warning message printed on the console.")
+    }
+    @IBAction func printError(_ sender: Any) {
+        magicError("This is an error message printed on the console.")
+    }
 
 }
 
